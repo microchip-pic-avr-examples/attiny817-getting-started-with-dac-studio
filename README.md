@@ -1,41 +1,27 @@
 <!-- Please do not change this logo with link -->
 [![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# Update the title for attiny817-getting-started-with-dac-studio here
+# Getting Started with Digital-to-Analog Converter (DAC) Examples (Microchip Studio)
 
-<!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
+  This repository contains examples of bare metal source code for Digital-to-Analog Converter (DAC) as described in the [TB3210-Getting Started with Digital-to-Analog Converter (DAC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3210-Getting-Started-with-DAC-90003210A.pdf) document from Microchip. The repository contains an Atmel Studio Solution with multiple projects inside:
+
+* [<strong>Generating Constant Analog Signal:</strong>](Generating_Constant_Analog_Signal) This use case shows how to use  the DAC to generate a constant analog signal on an output pin (for more details, see [<strong>Generating Constant Analog Signal</strong>](Generating_Constant_Analog_Signal))
+* [<strong>Generating Sine Wave Signal:</strong>](Generating_Sine_Wave_Signal) This use case shows how to use the DAC to generate a sine wave signal (for more details, see [<strong>Generating Sine Wave Signal</strong>](Generating_Sine_Wave_Signal))
+* [<strong>Reading DAC Internally with ADC:</strong>](Reading_DAC_Internally_with_ADC) This use case shows how to use the DAC to generate an output voltage internally (no pin involved). The ADC will read the value. The DAC voltage output will increment by one step every iteration (for more details, see [<strong>Reading DAC Internally with ADC</strong>](Reading_DAC_Internally_with_ADC))
+* [<strong>Using DAC as Negative Input for AC:</strong>](Using_DAC_as_Negative_Input_for_AC) This use case describes how to use the DAC as negative input for the AC and trigger an LED when the positive input is higher than the DAC reference (for more details, see [<strong>Using DAC as Negative Input for AC</strong>](Using_DAC_as_Negative_Input_for_AC))
 
 ## Related Documentation
+More details and code examples on ATtiny817 can be found at the following links:
+- [TB3210-Getting Started with Digital-to-Analog Converter (DAC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3210-Getting-Started-with-DAC-90003210A.pdf)
+- [ATtiny817 Product Page](https://www.microchip.com/wwwproducts/en/ATTINY817)
+- [ATtiny817 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=attiny817)
+- [ATtiny817 Project Examples in START](https://start.atmel.com/#examples/ATTINY817XplainedMini)
 
-<!-- Any information about an application note or tech brief can be linked here. Use unbreakable links!
-     In addition a link to the device family landing page and relevant peripheral pages as well:
-     - [AN3381 - Brushless DC Fan Speed Control Using Temperature Input and Tachometer Feedback](https://microchip.com/00003381/)
-     - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family) -->
 
 ## Software Used
+- Microchip Studio 7.0.2542 or newer [(https://www.microchip.com/mplab/microchip-studio)](https://www.microchip.com/mplab/microchip-studio)
+- ATtiny_DFP 1.7.330 or newer Device Pack
 
-<!-- All software used in this example must be listed here. Use unbreakable links!
-     - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-     - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-     - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - Microchip PIC18F-Q Series Device Support (1.4.109) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/) -->
 
 ## Hardware Used
-
-<!-- All hardware used in this example must be listed here. Use unbreakable links!
-     - PIC18F47Q10 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-     - Curiosity Nano Base for Click boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
-     - POT Click board™ [(MIKROE-3402)](https://www.mikroe.com/pot-click) -->
-
-## Setup
-
-<!-- Explain how to connect hardware and set up software. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
-
-## Operation
-
-<!-- Explain how to operate the example. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
-
-## Summary
-
-<!-- Summarize what the example has shown -->
+- ATtiny817 Xplained Mini [(attiny817-xmini)](https://www.microchip.com/developmenttools/ProductDetails/attiny817-xmini)

@@ -4,26 +4,26 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.attiny817-getting-started-with-dac-studio",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Getting Started with Digital-to-Analog Converter (DAC)",
         "projectName": "attiny817-getting-started-with-dac-studio",
-        "shortDescription": "",
+        "shortDescription": "This repository contains 4 bare metal code examples that show how to use the DAC peripheral of the ATtiny817 device in different modes. It is a companion to the TB3210-Getting Started with Digital-to-Analog Converter (DAC).",
         "ide": {
             "name": "STUDIO",
-            "semverRange": ""
+            "semverRange": ">=7.0.2542"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "AVR GCC",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATtiny_DFP",
+            "semverRange": "^1.7.330"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,16 +32,21 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATTINY817",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
+          [
+            "Peripherals","DAC"
+          ]
         ],
         "peripherals": [
+          "DAC"
         ],
         "keywords": [
+          "Getting Started", "Sine Wave"
         ],
 		"additionalData": {
 			"longDescription": {

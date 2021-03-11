@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Generating_Sine_Wave_Signal", "Generating_Sine_Wave_Signal\Generating_Sine_Wave_Signal.cproj", "{2285C48D-296E-43FD-A7B6-69885F64CFFD}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Generating_Constant_Analog_Signal", "Generating_Constant_Analog_Signal\Generating_Constant_Analog_Signal.cproj", "{6A45F23C-C0F9-4C6F-AD40-DA6169D10520}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Reading_DAC_Internally_with_ADC", "Reading_DAC_Internally_with_ADC\Reading_DAC_Internally_with_ADC.cproj", "{121060E3-8375-490A-A036-3BA04A13CE77}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Using_DAC_as_Negative_Input_for_AC", "Using_DAC_as_Negative_Input_for_AC\Using_DAC_as_Negative_Input_for_AC.cproj", "{0780FAA5-4D8C-4253-9C4E-A3FA2E92BFD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2285C48D-296E-43FD-A7B6-69885F64CFFD}.Debug|AVR.ActiveCfg = Debug|AVR
+		{2285C48D-296E-43FD-A7B6-69885F64CFFD}.Debug|AVR.Build.0 = Debug|AVR
+		{2285C48D-296E-43FD-A7B6-69885F64CFFD}.Release|AVR.ActiveCfg = Release|AVR
+		{2285C48D-296E-43FD-A7B6-69885F64CFFD}.Release|AVR.Build.0 = Release|AVR
+		{6A45F23C-C0F9-4C6F-AD40-DA6169D10520}.Debug|AVR.ActiveCfg = Debug|AVR
+		{6A45F23C-C0F9-4C6F-AD40-DA6169D10520}.Debug|AVR.Build.0 = Debug|AVR
+		{6A45F23C-C0F9-4C6F-AD40-DA6169D10520}.Release|AVR.ActiveCfg = Release|AVR
+		{6A45F23C-C0F9-4C6F-AD40-DA6169D10520}.Release|AVR.Build.0 = Release|AVR
+		{121060E3-8375-490A-A036-3BA04A13CE77}.Debug|AVR.ActiveCfg = Debug|AVR
+		{121060E3-8375-490A-A036-3BA04A13CE77}.Debug|AVR.Build.0 = Debug|AVR
+		{121060E3-8375-490A-A036-3BA04A13CE77}.Release|AVR.ActiveCfg = Release|AVR
+		{121060E3-8375-490A-A036-3BA04A13CE77}.Release|AVR.Build.0 = Release|AVR
+		{0780FAA5-4D8C-4253-9C4E-A3FA2E92BFD0}.Debug|AVR.ActiveCfg = Debug|AVR
+		{0780FAA5-4D8C-4253-9C4E-A3FA2E92BFD0}.Debug|AVR.Build.0 = Debug|AVR
+		{0780FAA5-4D8C-4253-9C4E-A3FA2E92BFD0}.Release|AVR.ActiveCfg = Release|AVR
+		{0780FAA5-4D8C-4253-9C4E-A3FA2E92BFD0}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
