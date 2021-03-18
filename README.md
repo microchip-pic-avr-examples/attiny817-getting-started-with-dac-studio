@@ -3,7 +3,7 @@
 
 # Getting Started with Digital-to-Analog Converter (DAC) Examples (Microchip Studio)
 
-  This repository contains examples of bare metal source code for Digital-to-Analog Converter (DAC) as described in the [TB3210-Getting Started with Digital-to-Analog Converter (DAC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3210-Getting-Started-with-DAC-90003210A.pdf) document from Microchip. The repository contains an Atmel Studio Solution with multiple projects inside:
+  This repository contains examples of bare metal source code for Digital-to-Analog Converter (DAC) as described in the [TB3210-Getting Started with Digital-to-Analog Converter (DAC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3210-Getting-Started-with-DAC-DS-90003210.pdf) document from Microchip. The repository contains an Atmel Studio Solution with multiple projects inside:
 
 * [<strong>Generating Constant Analog Signal:</strong>](Generating_Constant_Analog_Signal) This use case shows how to use  the DAC to generate a constant analog signal on an output pin (for more details, see [<strong>Generating Constant Analog Signal</strong>](Generating_Constant_Analog_Signal))
 * [<strong>Generating Sine Wave Signal:</strong>](Generating_Sine_Wave_Signal) This use case shows how to use the DAC to generate a sine wave signal (for more details, see [<strong>Generating Sine Wave Signal</strong>](Generating_Sine_Wave_Signal))
@@ -12,7 +12,7 @@
 
 ## Related Documentation
 More details and code examples on ATtiny817 can be found at the following links:
-- [TB3210-Getting Started with Digital-to-Analog Converter (DAC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3210-Getting-Started-with-DAC-90003210A.pdf)
+- [TB3210-Getting Started with Digital-to-Analog Converter (DAC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3210-Getting-Started-with-DAC-DS-90003210.pdf)
 - [ATtiny817 Product Page](https://www.microchip.com/wwwproducts/en/ATTINY817)
 - [ATtiny817 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=attiny817)
 - [ATtiny817 Project Examples in START](https://start.atmel.com/#examples/ATTINY817XplainedMini)
